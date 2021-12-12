@@ -77,13 +77,9 @@ static bool Has2Twos(string ternary)
             numberOfTwos++;
         }
     }
-    if (numberOfTwos == 2)
-    {
-        return true;
-    }
-
-    return false;
-
+    //simplified code, as per lecturers request
+    return numberOfTwos == 2;
+    
 }
 
 
